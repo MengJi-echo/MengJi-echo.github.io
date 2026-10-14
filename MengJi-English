@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meng Ji - Lecturer at Tianjin Normal University</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', SimSun, serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0056b3;
+            margin-bottom: 5px;
+        }
+        .position {
+            font-size: 1.2em;
+            font-weight: normal;
+            color: #555;
+        }
+        .contact-info {
+            margin-top: 15px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .pub-item {
+            margin-bottom: 15px;
+        }
+        .pub-title {
+            font-weight: bold;
+        }
+        .pub-authors {
+            font-style: italic;
+        }
+        .pub-journal {
+            color: #006621;
+        }
+        .pub-doi {
+            color: #005522;
+            word-break: break-all;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .profile-img {
+            float: right;
+            width: 150px;
+            margin-left: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <div class="clearfix">
+        <header>
+            <h1>Meng Ji <span class="position">Lecturer</span></h1>
+            <p>School of Mathematical Sciences, Tianjin Normal University</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:mji(at)tjnu(dot)edu(dot)cn">mji(at)tjnu(dot)edu(dot)cn</a></p>
+                <p>Office: Room B303, Bolilou Building, Tianjin Normal University</p>
+            </div>
+        </header>
+
+        <img src="profile.jpg" alt="Meng Ji" class="profile-img">
+    </div>
+
+    <section id="about">
+        <h2>Biography</h2>
+        <p>Meng Ji received his Ph.D. in 2020 from Nankai University (advisor: Professor Xueliang Li) and his M.S. in 2017 from Xiamen University (advisor: Professor Xian'an Jin). He is currently a Lecturer at the School of Mathematical Sciences, Tianjin Normal University. His research interests focus on graph theory, particularly graph connectivity and Ramsey theory. In 2022, he received the IMU Kovalevskaya Grant Award for travel support. He was awarded the China Scholarship Council (CSC) 2023 National High-level Research Scholar, Visiting Scholar, and Postdoctoral Program.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>2017–2020 Ph.D., Center for Combinatorics, Nankai University</li>
+            <li>2014–2017 M.S., School of Mathematical Sciences, Xiamen University</li>
+            <li>2010–2014 B.S., College of Mathematics and System Science, Xinjiang University</li>
+        </ul>
+    </section>
+
+    <section id="work">
+        <h2>Academic Positions</h2>
+        <ul>
+            <li>2020–present, Lecturer, School of Mathematical Sciences, Tianjin Normal University</li>
+            <li>Jul 2024 – Jul 2025, Postdoctoral Fellow (CSC-funded), ECOLOP Group, Institute for Basic Science (IBS), South Korea</li>
+        </ul>
+    </section>
+
+    <section id="research">
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Structural Graph Theory</li>
+            <li>Extremal Graph Theory</li>
+            <li>Ramsey Theory</li>
+        </ul>
+    </section>
+
+    <section id="research-projects">
+        <h2>Research Projects</h2>
+        <ul>
+            <li>(1) Jan 2025 – Dec 2027, Integer Flows and Flow-Contractible Subgraphs, National Natural Science Foundation of China (General Program, Grant No. 12471333), Participant</li>
+            <li>(2) Oct 2022 – Sep 2025, Circular Coloring and Flow Problems of Signed Graphs, Tianjin Natural Science Foundation (General Program, Grant No. 22JCYBJC01520), Participant</li>
+            <li>(3) Dec 2025 – Dec 2027, Research on Two Types of Ramsey Upper Bound Problems for Graphs, Scientific Research Program of Tianjin Municipal Education Commission (Grant No. 2025KJ133), Principal Investigator</li>
+        </ul>
+    </section>
+
+    <section id="preprints">
+        <h2>Preprints</h2>
+        <div class="pub-item">
+            <div class="pub-title">The size-Ramsey numbers of k-uniform relaxed ℓ-trees</div>
+            <div class="pub-authors">M. Ji, Y. Ma</div>
+            <div class="pub-doi">https://doi.org/10.48550/arXiv.2609.04713</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">An explicit connected-sum family with unbounded knot Ramsey-stick gap</div>
+            <div class="pub-authors">M. Ji</div>
+            <div class="pub-doi">https://doi.org/10.48550/arXiv.2608.27488</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">On the structural growth of bipartite Ramsey numbers</div>
+            <div class="pub-authors">M. Ji</div>
+            <div class="pub-doi">https://doi.org/10.48550/arXiv.2604.20668</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Asymptotic Bounds for t(3, n) and an Application to t(4, n)</div>
+            <div class="pub-authors">M. Ji, Y. Mao, I. Schiermeyer</div>
+            <div class="pub-doi">https://doi.org/10.48550/arXiv.2502.12596</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Gallai-Ramsey number for graph connectivity</div>
+            <div class="pub-authors">Z. Wang, R. Gui, M. Ji and Y. Mao</div>
+            <div class="pub-doi"></div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Ramsey size linear and generalization</div>
+            <div class="pub-authors">E. K. Hng, M. Ji, A. Lamaison</div>
+            <div class="pub-doi">https://doi.org/10.48550/arXiv.2603.25453</div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <div class="pub-item">
+            <div class="pub-title">Non-separating trees in k-connected graphs</div>
+            <div class="pub-authors">M. Ji</div>
+            <div class="pub-journal">Discuss. Math. Graph Theory, Available online 29 April 2026</div>
+            <div class="pub-doi">https://doi.org/10.7151/dmgt.2637</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">A note on a new result related to Chartrand, Kaigars and Lick's theorem</div>
+            <div class="pub-authors">Z. Huang, M. Ji</div>
+            <div class="pub-journal">Graphs and Combinatorics 42 8 (2026)</div>
+            <div class="pub-doi">https://doi.org/10.1007/s00373-025-03004-6</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Bounds for CO-irredundant and irredundant Ramsey numbers</div>
+            <div class="pub-authors">M. Ji, Y. Mao, I. Schiermeyer</div>
+            <div class="pub-journal">Discuss. Math. Graph Theory, 46 (2026) 279–298</div>
+            <div class="pub-doi">https://doi.org/10.7151/dmgt.2604</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Non-path results on the connectivity keeping problem</div>
+            <div class="pub-authors">M. Ji</div>
+            <div class="pub-journal">Discuss. Math. Graph Theory, 45(4) (2025) 1163–1184</div>
+            <div class="pub-doi">https://doi.org/10.7151/dmgt.2578</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Ramsey and Gallai-Ramsey numbers for forests</div>
+            <div class="pub-authors">Y. Gao, M. Ji, Y. Mao, M. Wei</div>
+            <div class="pub-journal">Discuss. Math. Graph Theory, 45(3) (2025) 971–994</div>
+            <div class="pub-doi">https://doi.org/10.7151/dmgt.2566</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Connectivity keeping paths for k-connected bipartite graphs</div>
+            <div class="pub-authors">M. Ji</div>
+            <div class="pub-journal">Discrete Math. Algorithms Appl., 17(01) (2025), 2430003</div>
+            <div class="pub-doi">https://dx.doi.org/10.1142/S1793830924300030</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Complete bipartite graphs without small rainbow stars</div>
+            <div class="pub-authors">W. Chen, M. Ji, Y. Mao, M. Wei</div>
+            <div class="pub-journal">Discrete Appl. Math., 340 (2023), 14–20</div>
+            <div class="pub-doi">https://doi.org/10.1016/j.dam.2023.06.038</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Extreme graphs on the Sombor indices</div>
+            <div class="pub-authors">C. Yang, M. Ji, K. C. Das, Y. Mao</div>
+            <div class="pub-journal">AIMS Math., 7(10) (2022), 19126–19146</div>
+            <div class="pub-doi">10.3934/math.20221050</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Some results on strong conflict-free connection number of graphs</div>
+            <div class="pub-authors">M. Ji, J. Wang</div>
+            <div class="pub-journal">Discrete Math. Algorithms Appl., 13(05) (2021), 2150066</div>
+            <div class="pub-doi">https://doi.org/10.1142/S179383092150066X</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Proper disconnection of graphs</div>
+            <div class="pub-authors">X. Bai, Y. Chen, M. Ji, X. Li, Y. Weng and W. Wu</div>
+            <div class="pub-journal">Bull. Malays. Math. Sci. Soc., 44 (2021), 2465–2477</div>
+            <div class="pub-doi">https://doi.org/10.1007/s40840-020-01069-5</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Conflict-free connection of trees</div>
+            <div class="pub-authors">H. Chang, M. Ji, X. Li and J. Zhang</div>
+            <div class="pub-journal">J. Comb. Optim., 42 (2021), 340–353</div>
+            <div class="pub-doi">https://doi.org/10.1007/s10878-018-0363-x</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Conflict-free connection number and independence number of a graph</div>
+            <div class="pub-authors">J. Wang, M. Ji</div>
+            <div class="pub-journal">Acta Math. Appl. Sin. Engl. Ser., 37 (2021), 278–286</div>
+            <div class="pub-doi">https://doi.org/10.1007/s10255-021-1013-0</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">(Strong) conflict-free connectivity: Algorithm and complexity</div>
+            <div class="pub-authors">M. Ji, X. Li and X. Zhu</div>
+            <div class="pub-journal">Theoret. Comput. Sci., 804 (2020), 72–80</div>
+            <div class="pub-doi">https://doi.org/10.1016/j.tcs.2019.10.043</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Strong conflict-free connection of graphs</div>
+            <div class="pub-authors">M. Ji and X. Li</div>
+            <div class="pub-journal">Appl. Math. Comput., 364 (2020), 124639</div>
+            <div class="pub-doi">https://doi.org/10.1016/j.amc.2019.124639</div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Erdős–Gallai-type results for conflict-free connection of graphs</div>
+            <div class="pub-authors">M. Ji and X. Li</div>
+            <div class="pub-journal">Ars Comb., 150 (2020)</div>
+            <div class="pub-doi"></div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">Almost parallel strong trace model of self-assembly polypeptide nanostructure</div>
+            <div class="pub-authors">J. Wang, G. Hu, M. Ji</div>
+            <div class="pub-journal">MATCH Commun. Math. Comput. Chem., 77 (2017), 783–798</div>
+            <div class="pub-doi"></div>
+        </div>
+        <div class="pub-item">
+            <div class="pub-title">On the existence of F-strong trace of a graph when F induces a forest</div>
+            <div class="pub-authors">J. Wang, X. Jin, M. Ji</div>
+            <div class="pub-journal">MATCH Commun. Math. Comput. Chem., 77 (2017), 799–812</div>
+            <div class="pub-doi"></div>
+        </div>
+        <p><a href="#">See more publications...</a></p>
+    </section>
+
+    <section id="teaching">
+        <h2>Teaching</h2>
+        <ul>
+            <li>Graph Theory (Undergraduate)</li>
+            <li>Advanced Mathematics</li>
+            <li>Advanced Algebra</li>
+        </ul>
+    </section>
+
+    <section id="students">
+        <h2>Student Supervision</h2>
+        <ul>
+            <li>Undergraduate thesis supervision (3–5 students per year)</li>
+            <li>National College Mathematical Modeling Contest (multiple Tianjin First and Second Prizes)</li>
+            <li>College Students' Innovation and Entrepreneurship Competition (University-level awards)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2025 Meng Ji – School of Mathematical Sciences, Tianjin Normal University. Last updated: January 2026</p>
+    </footer>
+</body>
+</html>
